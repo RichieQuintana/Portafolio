@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Quintana - Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary fixed-top shadow-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-code-slash"></i> Ricardo Quintana
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-content">
+                        <span class="badge bg-primary mb-3 px-3 py-2">
+                            <i class="bi bi-star-fill"></i> Listo para nuevos desafíos
+                        </span>
+                        <h1 class="display-3 fw-bold mb-3">
+                            Hola, soy <br>
+                            <span class="text-gradient">Ricardo Quintana</span>
+                        </h1>
+                        <h2 class="h3 text-muted mb-4">Ingeniero en Software</h2>
+                        <p class="lead mb-4">
+                            Especializado en Desarrollo Web, DevOps y tecnologías innovadoras. 
+                            Transformando ideas en soluciones tecnológicas eficientes.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3">
+                            <a href="#proyectos" class="btn btn-primary btn-lg">
+                                <i class="bi bi-folder"></i> Ver Proyectos
+                            </a>
+                            <a href="#contacto" class="btn btn-outline-primary btn-lg">
+                                <i class="bi bi-envelope"></i> Contactar
+                            </a>
+                        </div>
+                        <div class="social-links mt-4">
+                            <a href="https://github.com/RichieQuintana" target="_blank" class="social-icon">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ricardo-quintana-540024267" target="_blank" class="social-icon">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="mailto:richi3quintana@gmail.com" class="social-icon">
+                                <i class="bi bi-envelope-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-image-container">
+                        <div class="floating-card">
+                            <i class="bi bi-code-square"></i>
+                            <p class="mb-0">Desarrollo Web</p>
+                        </div>
+                        <div class="floating-card" style="animation-delay: 0.2s;">
+                            <i class="bi bi-layers"></i>
+                            <p class="mb-0">DevOps</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#sobre-mi">
+                <i class="bi bi-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2 class="display-5 fw-bold mb-3">Sobre Mí</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card border-0 shadow-lg" data-aos="fade-up">
+                        <div class="card-body p-5">
+                            <p class="lead text-muted mb-4">
+                                Estudiante de último semestre de <strong>Ingeniería en Software</strong> en la 
+                                Universidad de las Américas (UDLA), con experiencia práctica en desarrollo web, 
+                                automatización CI/CD y proyectos de realidad virtual educativa.
+                            </p>
+                            <p class="text-muted mb-4">
+                                Me destaco por resolver problemas, aprender nuevas tecnologías 
+                                fácilmente y trabajar en equipo. Apasionado por la tecnología y el soporte IT, 
+                                con enfoque en mejora continua y soluciones innovadoras.
+                            </p>
+                            <div class="row g-4 mt-3">
+                                <div class="col-md-6">
+                                    <div class="info-item">
+                                        <i class="bi bi-geo-alt-fill text-primary"></i>
+                                        <span>Quito, Ecuador</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="info-item">
+                                        <i class="bi bi-translate text-primary"></i>
+                                        <span>Español (Nativo), Inglés (B2)</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="info-item">
+                                        <i class="bi bi-mortarboard-fill text-primary"></i>
+                                        <span>UDLA - Graduación 2026</span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2 class="display-5 fw-bold mb-3">Experiencia Laboral</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="timeline">
+                        <!-- Experiencia 1 -->
+                        <div class="timeline-item" data-aos="fade-up">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content card border-0 shadow">
+                                <div class="card-body p-4">
+                                    <div class="d-flex justify-content-between align-items-start mb-3">
+                                        <div>
+                                            <h4 class="fw-bold mb-1">Desarrollador Front-End</h4>
+                                            <h5 class="text-primary mb-2">
+                                                <i class="bi bi-building"></i> Turismo Digital - GalAvail
+                                            </h5>
+                                            <p class="text-muted mb-0">
+                                                <i class="bi bi-calendar3"></i> Septiembre 2024 - Enero 2025
+                                            </p>
+                                        </div>
+                                        <span class="badge bg-success">
+                                            <i class="bi bi-patch-check-fill"></i> Certificado
+                                        </span>
+                                    </div>
+                                    <div class="tech-stack mb-3">
+                                        <span class="badge bg-primary me-2 mb-2">Angular</span>
+                                        <span class="badge bg-primary me-2 mb-2">TypeScript</span>
+                                        <span class="badge bg-primary me-2 mb-2">Metodologías Ágiles</span>
+                                    </div>
+                                    <ul class="mb-0">
+                                        <li>Desarrollo Front-End con Angular y TypeScript</li>
+                                        <li>Mantenimiento y optimización de sitios web</li>
+                                        <li>Resolución de incidencias técnicas</li>
+                                        <li>Mejora del rendimiento y seguridad en aplicaciones web</li>
+                                        <li>Colaboración en equipo con metodologías ágiles</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Experiencia 2 -->
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content card border-0 shadow">
+                                <div class="card-body p-4">
+                                    <div class="d-flex justify-content-between align-items-start mb-3">
+                                        <div>
+                                            <h4 class="fw-bold mb-1">Administrador de Infraestructura y Soporte IT</h4>
+                                            <h5 class="text-primary mb-2">
+                                                <i class="bi bi-building"></i> Signo Digital
+                                            </h5>
+                                            <p class="text-muted mb-0">
+                                                <i class="bi bi-calendar3"></i> Junio - Septiembre 2022
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <ul class="mb-0">
+                                        <li>Mantenimiento y optimización de redes y sistemas operativos</li>
+                                        <li>Instalación y configuración de infraestructura TI</li>
+                                        <li>Resolución de incidencias técnicas y gestión de proyectos</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2 class="display-5 fw-bold mb-3">Proyectos Destacados</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <!-- Proyecto 1: Tesis VR -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="project-card card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div class="project-icon">
+                                    <i class="bi bi-headset-vr"></i>
+                                </div>
+                                <span class="badge bg-warning text-dark">
+                                    <i class="bi bi-tools"></i> En Desarrollo
+                                </span>
+                            </div>
+                            <h4 class="fw-bold mb-3">Proyecto de Tesis - Serious Game Realidad Virtual</h4>
+                            <p class="text-muted mb-3">
+                                Proyecto de grado enfocado en tecnologías VR aplicadas a la educación. 
+                                Actualmente en fase de documentación y modelado de sistemas.
+                            </p>
+                            <div class="tech-tags mb-3">
+                                <span class="badge bg-light text-dark me-2 mb-2">Realidad Virtual</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">Modelado VR</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">Investigación</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">Serious Game</span>
+                            </div>
+                            <div class="alert alert-warning mb-0" role="alert">
+                                <small><i class="bi bi-info-circle"></i> Proyecto académico en progreso</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: CI/CD -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div class="project-icon">
+                                    <i class="bi bi-gear-fill"></i>
+                                </div>
+                                <span class="badge bg-secondary">
+                                    <i class="bi bi-lock-fill"></i> Privado
+                                </span>
+                            </div>
+                            <h4 class="fw-bold mb-3">Sistema CI/CD con Jenkins</h4>
+                            <p class="text-muted mb-3">
+                                Pipeline completo de integración y despliegue continuo con Docker, 
+                                Kubernetes y automatización de testing.
+                            </p>
+                            <div class="tech-tags mb-3">
+                                <span class="badge bg-light text-dark me-2 mb-2">Jenkins</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">Docker</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">Kubernetes</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">GitHub Actions</span>
+                            </div>
+                            <div class="alert alert-secondary mb-0" role="alert">
+                                <small><i class="bi bi-shield-lock"></i> Disponible para discusión en entrevistas</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3: GalAvail -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div class="project-icon">
+                                    <i class="bi bi-globe"></i>
+                                </div>
+                                <span class="badge bg-success">
+                                    <i class="bi bi-briefcase"></i> Comercial
+                                </span>
+                            </div>
+                            <h4 class="fw-bold mb-3">Desarrollo Web - Turismo Digital</h4>
+                            <p class="text-muted mb-3">
+                                Proyectos Front-End en GalAvail. Implementación de componentes Angular, 
+                                optimización de rendimiento y UX.
+                            </p>
+                            <div class="tech-tags mb-3">
+                                <span class="badge bg-light text-dark me-2 mb-2">Angular</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">TypeScript</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">HTML/CSS</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">Optimización Web</span>
+                            </div>
+                            <div class="alert alert-success mb-0" role="alert">
+                                <small><i class="bi bi-check-circle"></i> Experiencia profesional certificada</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4: Plataforma E-Learning -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div class="project-icon">
+                                    <i class="bi bi-globe"></i>
+                                </div>
+                                <span class="badge bg-success">
+                                    <i class="bi bi-unlock-fill"></i> Publico
+                                </span>
+                            </div>
+                            <h4 class="fw-bold mb-3">Desarrollo Web - Plataforma E-learning</h4>
+                            <p class="text-muted mb-3">
+                                Una plataforma permite a los usuarios registrarse, 
+                                crear y matricularse en cursos, realizar seguimientos de su 
+                                progreso e interactuar con instructores y compañeros. 
+                            </p>
+                            <div class="tech-tags mb-3">
+                                <span class="badge bg-light text-dark me-2 mb-2">Python</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">C++</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">HTML</span>
+                                <span class="badge bg-light text-dark me-2 mb-2">Flask</span>
+                            </div>
+                            <div class="alert alert-success mb-0" role="alert">
+                                <small><i class="bi bi-check-circle"></i> Tarea Academica </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2 class="display-5 fw-bold mb-3">Habilidades Principales</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <!-- Desarrollo -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                    <div class="skill-category card border-0 shadow h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="skill-icon mb-3">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Desarrollo</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">Angular & TypeScript</li>
+                                <li class="mb-2">Desarrollo Web</li>
+                                <li class="mb-2">Software Básico</li>
+                                <li class="mb-2">Documentación</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevOps -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-category card border-0 shadow h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="skill-icon mb-3">
+                                <i class="bi bi-gear-fill"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">DevOps & CI/CD</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">GitHub Actions</li>
+                                <li class="mb-2">Jenkins</li>
+                                <li class="mb-2">Docker</li>
+                                <li class="mb-2">Kubernetes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Competencias -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-category card border-0 shadow h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="skill-icon mb-3">
+                                <i class="bi bi-lightbulb-fill"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Competencias</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">Resolución de Problemas</li>
+                                <li class="mb-2">Pensamiento Creativo</li>
+                                <li class="mb-2">Trabajo en Equipo</li>
+                                <li class="mb-2">Aprendizaje Rápido</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto y Referencias -->
+    <section id="contacto" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2 class="display-5 fw-bold mb-3">Referencias Laborales</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            
+            <!-- Información de Contacto -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg" data-aos="fade-up">
+                        <div class="card-body p-5 text-center">
+                            <h3 class="fw-bold mb-4">Datos de contacto</h3>
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-4">
+                                    <div class="contact-info-item">
+                                        <i class="bi bi-telephone-fill"></i>
+                                        <a href="tel:+593984918603">+593 984918603</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="contact-info-item">
+                                        <i class="bi bi-envelope-fill"></i>
+                                        <a href="mailto:richi3quintana@gmail.com">richi3quintana@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="contact-info-item">
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                        <span>Quito, Ecuador</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-links-large">
+                                <a href="https://github.com/RichieQuintana" target="_blank" class="btn btn-outline-dark btn-lg">
+                                    <i class="bi bi-github"></i> GitHub
+                                </a>
+                                <a href="https://www.linkedin.com/in/ricardo-quintana-540024267" target="_blank" class="btn btn-outline-primary btn-lg">
+                                    <i class="bi bi-linkedin"></i> LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Referencias -->
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="reference-card card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <div class="reference-icon mb-3">
+                                <i class="bi bi-person-badge-fill"></i>
+                            </div>
+                            <h5 class="fw-bold mb-2">Ing. Diego Maldonado</h5>
+                            <p class="text-primary mb-2">Representante del Centro Administrativo</p>
+                            <p class="text-muted mb-3"><strong>Signo Digital</strong></p>
+                            <p class="mb-0">
+                                <i class="bi bi-envelope"></i>
+                                <a href="mailto:info@signo-digital.net">info@signo-digital.net</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="reference-card card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <div class="reference-icon mb-3">
+                                <i class="bi bi-person-badge-fill"></i>
+                            </div>
+                            <h5 class="fw-bold mb-2">Ing. Daniela Paredes</h5>
+                            <p class="text-primary mb-2">Manager General</p>
+                            <p class="text-muted mb-3"><strong>GalAvail</strong></p>
+                            <p class="mb-1">
+                                <i class="bi bi-envelope"></i>
+                                <a href="mailto:daniela@galavail.com">daniela@galavail.com</a>
+                            </p>
+                            <p class="mb-0">
+                                <i class="bi bi-telephone"></i>
+                                <a href="tel:+593987419915">+593 98 741 9915</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="reference-card card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <div class="reference-icon mb-3">
+                                <i class="bi bi-person-badge-fill"></i>
+                            </div>
+                            <h5 class="fw-bold mb-2">Dra. Sonia Sánchez</h5>
+                            <p class="text-primary mb-2">Doctora</p>
+                            <p class="text-muted mb-3"><strong>Hospital Julio Endara</strong></p>
+                            <p class="mb-0">
+                                <i class="bi bi-telephone"></i>
+                                <a href="tel:+593999696207">+593 99 969 6207</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2025 Ricardo Quintana. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Estudainte ingeniero en Software | Quito, Ecuador</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
